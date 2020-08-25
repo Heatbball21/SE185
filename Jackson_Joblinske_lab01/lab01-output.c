@@ -2,7 +2,7 @@
 -		    SE 185: Lab 01 - Getting to Know the 185 Environment
 -	Name:		Jackson Joblinske
 - Section:		4
--	NetID:			195525346
+-	NetID:			jobo
 -	Date:				8/25/20
 -----------------------------------------------------------------------------*/
 
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
     printf("%d", number);
     printf("\n");
 
-    printf("195525346");
+    printf("jobo");
     printf("\n");
 
     return 0;
