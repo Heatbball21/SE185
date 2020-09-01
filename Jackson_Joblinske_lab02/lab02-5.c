@@ -1,13 +1,13 @@
 /*----------------------------------------------------------------------------
 -		        SE 185: Lab 02 - Solving Simple Problems in C
 -
--	Name:			Jackson Joblinske
+-	Name:				Jackson Joblinske
 -
 - Section:	4
 -
--	NetID:			jobo
+-	NetID:	jobo
 -
--	Date:				9/1/2020
+-	Date:			9/1/2020
 -
 -----------------------------------------------------------------------------*/
 
@@ -15,23 +15,22 @@
 -								Includes									 -
 -----------------------------------------------------------------------------*/
 #include <stdio.h>
+#include <math.h>
 
 /*----------------------------------------------------------------------------
 -								Implementation								 -
 -----------------------------------------------------------------------------*/
 int main(int argc, char *argv[])
 {
-    int integer_result;
-    double decimal_result;
+  double a,b,c;
+  printf("Enter a number for a: ");
+  scanf("%lf", &a);
+  printf("Enter a number for b: ");
+  scanf("%lf", &b);
 
-    integer_result = 77 / 5;
-    printf("The value of 77/5 is %d, using integer math.\n", integer_result);//%lf is for floats
+c = sqrt((pow(a,2) + pow(b,2)));
 
-    integer_result = 2 + 3;
-    printf("The value of 2+3 is %d.\n", integer_result);// no variable to take the place of %d
-
-    decimal_result = 1.0 / 22.0;
-    printf("The value 1.0/22.0 is %.2lf.\n", decimal_result);//%d is for ints
+printf("Side c = %.2f", c);
 
     return 0;
 }
