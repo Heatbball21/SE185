@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     scanf("%d", &x);
     printf("Enter a height: ");
     scanf("%d", &y);
-    printf("A %d by %d rectangle's area is %d/n", x , y , x*y);
+    printf("A %d by %d rectangle's area is %d\n", x , y , x*y);
 
 
 

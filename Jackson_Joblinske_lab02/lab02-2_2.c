@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     scanf("%d", &y);
     printf("Enter a length: ");
     scanf("%d", &z);
-    printf("A %d by %d  by %d rectangle's volume is %d/n", x , y , z, x*y*z);
+    printf("A %d by %d  by %d rectangle's volume is %d\n", x , y , z, x*y*z);
 
 
 
