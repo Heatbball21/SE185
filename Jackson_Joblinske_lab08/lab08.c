@@ -62,6 +62,7 @@ int main(int argc, char *argv[])
 {
 
   Student *stu1, *stu2, *stu3;
+  Student stu4;
 
   stu1 = (Student*)malloc(sizeof(Student));
   stu2 = (Student*)malloc(sizeof(Student));
@@ -71,6 +72,7 @@ int main(int argc, char *argv[])
 
   Uni uni1, uni2, uni3;
 
+  stu4.age = 18;
 
 
 //stu1
@@ -125,39 +127,47 @@ int main(int argc, char *argv[])
   strcpy(uni3.location, "Cedar Falls, Iowa");
 
 
+//Part 1
+
   // printf("%d\n", stu1->age);
+
+
+//Part 2
 
   // printf("max is %d\n", getMax(stus, 3, 3));
   // printf("min is %d\n", getMin(stus, 3, 3));
   // printf("avg is %d\n", getAvg(stus, 3, 3));
 
 
-  printf("University 1: %s\n", uni1.name);
-  printf("  Student: %s\n", uni1.stus[0].name);
-  printf("    Student age: %d\n", uni1.stus[0].age);
-  printf("    Student major: %s\n", uni1.stus[0].major);
-  printf("  Built: %d\n", uni1.built);
-  printf("  Location: %s\n", uni1.location);
 
-  printf("\n");
+//Part 3
 
-  printf("University 2: %s\n", uni2.name);
-  printf("  Student: %s\n", uni2.stus[0].name);
-  printf("    Student age: %d\n", uni2.stus[0].age);
-  printf("    Student major: %s\n", uni2.stus[0].major);
-  printf("  Built: %d\n", uni2.built);
-  printf("  Location: %s\n", uni2.location);
-
-  printf("\n");
-
-  printf("University 3: %s\n", uni3.name);
-  printf("  Student: %s\n", uni3.stus[0].name);
-  printf("    Student age: %d\n", uni3.stus[0].age);
-  printf("    Student major: %s\n", uni3.stus[0].major);
-  printf("  Built: %d\n", uni3.built);
-  printf("  Location: %s\n", uni3.location);
-
-  printf("\n");
+  // printf("University 1: %s\n", uni1.name);
+  // printf("  Student: %s\n", uni1.stus[0].name);
+  // printf("    Student age: %d\n", uni1.stus[0].age);
+  // printf("    Student major: %s\n", uni1.stus[0].major);
+  // printf("  Built: %d\n", uni1.built);
+  // printf("  Location: %s\n", uni1.location);
+  //
+  // printf("\n");
+  //
+  // printf("University 2: %s\n", uni2.name);
+  // printf("  Student: %s\n", uni2.stus[0].name);
+  // printf("    Student age: %d\n", uni2.stus[0].age);
+  // printf("    Student major: %s\n", uni2.stus[0].major);
+  // printf("  Built: %d\n", uni2.built);
+  // printf("  Location: %s\n", uni2.location);
+  //
+  // printf("\n");
+  //
+  // printf("University 3: %s\n", uni3.name);
+  // printf("  Student: %s\n", uni3.stus[0].name);
+  // printf("    Student age: %d\n", uni3.stus[0].age);
+  // printf("    Student major: %s\n", uni3.stus[0].major);
+  // printf("  Built: %d\n", uni3.built);
+  // printf("  Location: %s\n", uni3.location);
+  //
+  // printf("\n");
 
     return 0;
 
